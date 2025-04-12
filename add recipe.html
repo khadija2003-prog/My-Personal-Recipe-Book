@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add recipe</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <table border="1" cellpadding="10" cellspacing="2" align="left" width="100%" height="100%">
+                <tr>
+                    <th><a href="index.html">home</a></th>
+                    <th><a href="add recipe.html">add recipe</a></th>
+                    <th><a href="List recipe.html">List recipe</a></th>
+                    <th><a href="recipe detail.html">recipe detail</a></th>
+                 </tr>
+             </table>
+        </nav>
+        
+    </header>
+   <main>
+    <form action="required">
+        <h2> <b>Recipe Submission Form:</b></h2>
+        <br>
+        <br>
+        <label for="Recipe Name">Recipe Name:</label>
+        <input type="text" id="recipe Name" name="recipe Name " required/>
+        <br>
+        <br>
+        <label for="Ingredients">Ingredients:</label>
+        <input type="text" id="ingredients" name="ingredients" required/>
+        <br>
+        <br>
+        <label for="Cooking Instructions">Cooking Instructions:</label>
+        <input type="text area" id="Cooking Instructions" name="Cooking Instructions" required/>
+        <br>
+        <br>
+        <label for="file">Upload a file:</label>
+        <input type="file" id="file" name="file" required/>
+        <br>
+        <br>
+        <h3>Recipe Catagory:</h3>
+        <aside>
+            <select>
+                <option value="Main Dishes">Main Dishes</option>
+                <option value="Vegetarian Dishes">Vegetarian Dishes</option>
+                <option value="Meat Dished">Meat Dishes</option>
+                <option value="Salads and Sides">Slads and Sides</option>
+                <option value="Desserts">Desserts</option>
+                <option value="Drinks"> Drinks</option>
+                <option value="Snacks and Appetizers">Snacks and Appetizers</option>
+                <option value="Other">Others</option>
+            </select>
+        </aside>
+       
+       <br>
+       <br>
+        <label for="add recipe">Add Recipe</label>
+        <input type="Submit" id="add recipe" name=":Add recipe"/>
+    </form>
+   </main>
+</body>
+</html
